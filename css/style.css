@@ -139,8 +139,46 @@ img {
     .container {
         max-width: 440px;
     }
+
+    html{
+        font-size: 12px;
+    }
  }
 
  @media  screen and (max-width: 480px) {
-    
+    .container{
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 80%;
+    }
+
+    .steps .col {
+        width: 80%;
+    }
+
+    .why-us{
+        margin-top: -3rem;
+        margin-bottom: 0;
+        padding: 3rem 0;
+        background-color: #212121;
+    }
+
+    .why-us .col{
+        width: 80%;
+    }
+
+    .why-us .col-right{
+        margin-top: 2rem;
+    }
+
+    img{
+        margin-top: 3rem;
+    }
  }
